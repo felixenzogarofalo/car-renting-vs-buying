@@ -1,0 +1,22 @@
+                                 scenario  purchase_op_costs  purchase_net_cost  renting_total_cost  delta_renting_minus_purchase
+
+0  SEAT Ibiza - Nuevo vs Renting - 3 años            5167.09            8961.09             10236.6                       1275.51 -> MEJOR OPCIÓN A COMPRA
+1  SEAT Ibiza - Usado vs Renting - 3 años            7939.89           14090.77             10236.6                      -3854.17
+
+0  SEAT Ibiza - Nuevo vs Renting - 6 años           10983.96           22117.17             15912.0                      -6205.17
+1  SEAT Ibiza - Usado vs Renting - 6 años           16373.37           25510.45             15912.0                      -9598.45
+
+0  Kia Stonic - Nuevo vs Renting - 3 años            5153.59            9782.27             11628.0                       1845.73
+1  Kia Stonic - Usado vs Renting - 3 años            7926.39           14285.95             11628.0                      -2657.95
+
+0  Dasia Sandero - Nuevo vs Renting - 3 años         5162.59           10133.20              8100.0                      -2033.20 -> MEJOR OPCIÓN A RENTING
+1  Dasia Sandero - Usado vs Renting - 3 años         7562.65           13133.82              8100.0                      -5033.82
+
+0  Dasia Sandero - Nuevo vs Renting - 6 años        10974.96           18699.55             16200.0                      -2499.55
+1  Dasia Sandero - Usado vs Renting - 6 años        15846.10           24847.67             16200.0                      -8647.67
+
+0  Opel Corsa - Nuevo vs Renting - 3 años            5278.09           11538.19             9016.92                      -2521.27
+1  Opel Corsa - Usado vs Renting - 3 años            7533.60           12025.93             9016.92                      -3009.01
+
+0  Hyndai Bayon - Nuevo vs Renting - 3 años          5260.09           10207.19              9144.0                      -1063.19
+1  Hyndai Bayon - Usado vs Renting - 3 años          7515.60           12384.67              9144.0                      -3240.67

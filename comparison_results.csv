@@ -1,0 +1,5 @@
+scenario,op_costs,monthly_payment,loan_payments,loan_balance_end,residual_value,equity_end,cash_out,net_cost,horizon_years,purchase_op_costs,purchase_loan_payments,purchase_loan_balance_end,purchase_residual_value,purchase_equity_end,purchase_cash_out,purchase_net_cost,renting_fee_payments,renting_upfront_fee,renting_add_on_costs,renting_excess_km_cost,renting_total_cost,delta_renting_minus_purchase
+Seat Ibiza - Financiado Nuevo,10983.962560600505,90.0,14848.38,0.0,7440.174000000001,7440.174000000001,29557.342560600504,22117.168560600505,,,,,,,,,,,,,,
+Seat Ibiza - Financiado Usado,16373.372376650259,184.0,13248.0,0.0,5895.0,5895.0,29621.37237665026,23726.37237665026,,,,,,,,,,,,,,
+SEAT Ibiza - Nuevo vs Renting - 6 años,,,,,,,,,6.0,10983.96,14848.38,0.0,7440.17,7440.17,29557.34,22117.17,15912.0,0.0,0.0,0.0,15912.0,-6205.17
+SEAT Ibiza - Usado vs Renting - 6 años,,,,,,,,,6.0,16373.37,13248.0,0.0,4110.92,4110.92,29621.37,25510.45,15912.0,0.0,0.0,0.0,15912.0,-9598.45
