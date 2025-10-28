@@ -88,24 +88,24 @@ init_db()
 with st.sidebar:
     st.header("Escenario")
     scenario = st.text_input("Nombre del escenario", value="Mi Escenario")
-    years = st.number_input("Horizonte (años)", min_value=1, max_value=15, value=6, step=1)
+    years = st.number_input("Horizonte (años)", min_value=1, max_value=15, value=3, step=1)
 
     st.divider()
     st.subheader("Vehículo")
     engine_cc = st.number_input("Cilindrada (cc)", min_value=600, max_value=6000, value=999, step=1)
     cylinders = st.number_input("Cilindros", min_value=2, max_value=12, value=3, step=1)
-    power_kw = st.number_input("Potencia (kW)", min_value=30.0, max_value=400.0, value=67.0, step=1.0)
-    fuel_type = st.selectbox("Tipo de combustible", options=['gasoline', 'diesel', 'hybrid', 'electric'], index=0)
+    power_kw = st.number_input("Potencia (kW)", min_value=30.0, max_value=400.0, value=74.0, step=1.0)
+    fuel_type = st.selectbox("Tipo de combustible", options=['gasoline', 'diesel', 'hybrid', 'electric'], index=2)
 
     st.subheader("Uso")
     age_years = st.number_input("Edad del vehículo (años)", min_value=0.0, max_value=20.0, value=0.0, step=1.0, format="%.1f")
-    annual_km = st.number_input("Kilómetros anuales", min_value=0.0, max_value=60000.0, value=10000.0, step=1000.0)
+    annual_km = st.number_input("Kilómetros anuales", min_value=0.0, max_value=60000.0, value=15000.0, step=1000.0)
     odometer_km = st.number_input("Odómetro actual (km)", min_value=0.0, max_value=400000.0, value=0.0, step=1000.0)
 
     st.divider()
     st.subheader("Financiación de Compra")
     finance_mode = st.radio("Modo de financiación", options=['amortized', 'custom'], horizontal=True, index=1)
-    price = st.number_input("Precio (€)", min_value=0.0, value=13940.0, step=100.0)
+    price = st.number_input("Precio (€)", min_value=0.0, value=14900.0, step=100.0)
     down_payment = st.number_input("Entrada / Down payment (€)", min_value=0.0, value=2500.0, step=100.0)
 
     if finance_mode == 'amortized':
@@ -117,9 +117,9 @@ with st.sidebar:
     else:
         loan_rate_annual = 0.0
         loan_term_months = 0
-        installment_amount = st.number_input("Cuota mensual fija (€)", min_value=0.0, value=119.0, step=1.0)
+        installment_amount = st.number_input("Cuota mensual fija (€)", min_value=0.0, value=182.0, step=1.0)
         installment_count = st.number_input("Número de cuotas", min_value=0, max_value=180, value=36, step=1)
-        balloon_final = st.number_input("Cuota final / Balloon (€)", min_value=0.0, value=8336.12, step=50.0)
+        balloon_final = st.number_input("Cuota final / Balloon (€)", min_value=0.0, value=10100.12, step=50.0)
 
     st.divider()
     st.subheader("Depreciación")
@@ -137,8 +137,8 @@ with st.sidebar:
 
     st.divider()
     st.subheader("Renting")
-    monthly_fee = st.number_input("Cuota mensual (€)", min_value=0.0, value=225.0, step=5.0)
-    renting_months = st.number_input("Meses de contrato", min_value=1, max_value=120, value=72, step=1)
+    monthly_fee = st.number_input("Cuota mensual (€)", min_value=0.0, value=280.0, step=5.0)
+    renting_months = st.number_input("Meses de contrato", min_value=1, max_value=120, value=36, step=1)
     upfront_fee = st.number_input("Cuota inicial (€)", min_value=0.0, value=0.0, step=50.0)
 
     includes_insurance = st.checkbox("Incluye seguro", value=True)
@@ -146,7 +146,7 @@ with st.sidebar:
     includes_tyres = st.checkbox("Incluye neumáticos", value=True)
     includes_taxes = st.checkbox("Incluye impuestos", value=True)
 
-    annual_km_allowance = st.number_input("Km anuales incluidos", min_value=0.0, max_value=200000.0, value=10000.0, step=1000.0)
+    annual_km_allowance = st.number_input("Km anuales incluidos", min_value=0.0, max_value=200000.0, value=15000.0, step=1000.0)
     excess_km_cost = st.number_input("Costo por km excedente (€)", min_value=0.0, max_value=10.0, value=0.06, step=0.01)
 
 # Botón de ejecución
